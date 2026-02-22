@@ -16,7 +16,7 @@ html {
 
 /* NAVBAR */
 header {
-    background-color: #1e3a8a;
+    background-color: #555;
     color: white;
     padding: 15px 20px;
 }
@@ -52,7 +52,7 @@ header ul li a:hover {
     object-fit: cover;
 }
 #hero h2 {
-    color: #1e3a8a;
+    color: #333;
     margin-bottom: 10px;
 }
 
@@ -63,7 +63,7 @@ section {
     padding: 0 20px;
 }
 section h2 {
-    color: #1e3a8a;
+    color: #333;
     margin-bottom: 15px;
 }
 
@@ -90,11 +90,12 @@ section h2 {
 .card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
+    background-color: #eee;
 }
 
 /* CONTACT */
 #contact a {
-    color: #1e3a8a;
+    color: #555;
     text-decoration: none;
 }
 
