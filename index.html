@@ -6,6 +6,15 @@
     <title>Mohib's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    const btn = document.getElementById('contact-btn');
+    const email = document.getElementById('email-text');
+
+    btn.addEventListener('click', () => {
+        email.classList.toggle('show');
+        email.classList.toggle('hidden');
+    });
+</script>
 <body>
 
     <!-- NAVBAR -->
@@ -62,8 +71,8 @@
             class="footer-contact-container">
             <button
             id="contact-btn">Contact Me</button>
-            <p id="email-text"
-            class="hidden">mohibrehmanbhatti@gmail.com</p>
+            <a id="email-text"
+            class="hidden"href=>mohibrehmanbhatti@gmail.com</a>
         </div>
         <p>Connect with me: 
             <a href="https://www.instagram.com/mohib__rehman/" target="_blank">Instagram / Mohib rehman</a> 
