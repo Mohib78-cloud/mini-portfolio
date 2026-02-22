@@ -15,3 +15,9 @@ button {
     border: none;
     cursor: pointer;
 }
+html {
+    scroll-behavior: smooth;
+}
+header nav ul li a:hover {
+    color: #ff9900; /* highlight on hover */
+}
