@@ -100,13 +100,30 @@ section h2 {
 }
 
 /* FOOTER */
-footer {
-    text-align: center;
+    footer {
+    display: flex;
+    justify-content: space-between; /* left & right alignment */
+    align-items: center;
     padding: 20px;
-    background-color: #000;
+    background-color: #000; /* black footer */
     color: white;
-    margin-top: 40px;
 }
+
+.footer-contact {
+    color: #fff;             /* white text */
+    text-decoration: none;    
+    border: 1px solid #fff;  /* optional: border */
+    padding: 5px 10px;       /* spacing */
+    border-radius: 5px;      /* rounded corners */
+    transition: 0.3s;
+}
+
+.footer-contact:hover {
+    background-color: #555;  /* dark grey hover */
+    border-color: #888;      /* border changes on hover */
+}
+
+
 
 /* RESPONSIVE */
 @media(max-width: 600px){
