@@ -1,40 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Mini Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohib's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Hello, I'm Mohib 👋</h1>
-    <p>I'm learning Web Development 🚀</p>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h1>Mohib</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <button>Contact Me</button>
-<header>
-    <nav>
-        <h1>Mohib</h1>
-        <ul>
-            <li><a href="#Hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<div class="project-cards">
-    <div class="card">
-        <a href="https://github.com/Mohib78-cloud/mini-portfolio" target="_blank">
-            <h3>Mini Portfolio</h3>
-            <p>My personal portfolio website</p>
-        </a>
-    </div>
+    <!-- HERO -->
+    <section id="hero">
+        <img src="profile.jpg" alt="Mohib" class="hero-pic">
+        <h2>Hi, I'm Mohib 👋</h2>
+        <p>Learning Web Development & building cool projects 🚀</p>
+    </section>
 
-    <div class="card">
-        <a href="https://github.com/Mohib78-cloud/coming-soon" target="_blank">
-            <h3>Next Project</h3>
-            <p>More projects coming soon!</p>
-        </a>
-    </div>
-</div>
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a beginner web developer exploring HTML, CSS, and GitHub. 
+            I enjoy building websites and improving my coding skills every day.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <a href="https://github.com/Mohib78-cloud/mini-portfolio" target="_blank">
+                    <h3>Mini Portfolio</h3>
+                    <p>My personal portfolio website</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/Mohib78-cloud/coming-soon" target="_blank">
+                    <h3>Next Project</h3>
+                    <p>More projects coming soon!</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mohibrehmanbhatti@gmail.com">mohibrehmanbhatti@gmail.com</a></p>
+        <p>Connect with me: 
+            <a href="https://www.instagram.com/mohib__rehman/" target="_blank">Instagram</a> | 
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Mohib</p>
+    </footer>
+
 </body>
 </html>
