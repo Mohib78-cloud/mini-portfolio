@@ -99,40 +99,41 @@ section h2 {
     text-decoration: none;
 }
 
-/* FOOTER */
-    footer {
+/* Footer container */
+footer {
     display: flex;
-    justify-content: space-between; /* left & right alignment */
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #000; /* black footer */
+    background-color: #000;
     color: white;
 }
 
-.footer-contact {
-    color: #fff;             /* white text */
-    text-decoration: none;    
-    border: 1px solid #fff;  /* optional: border */
-    padding: 5px 10px;       /* spacing */
-    border-radius: 5px;      /* rounded corners */
+/* Contact button */
+#contact-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.footer-contact:hover {
-    background-color: #555;  /* dark grey hover */
-    border-color: #888;      /* border changes on hover */
+#contact-btn:hover {
+    background-color: #555;
+    color: white;
 }
 
+/* Hidden email link initially */
+#email-text.hidden {
+    display: none;
+}
 
-
-/* RESPONSIVE */
-@media(max-width: 600px){
-    header ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .project-cards {
-        flex-direction: column;
-        align-items: center;
-    }
+/* Show email link */
+#email-text.show {
+    display: inline-block; /* clickable link */
+    margin-left: 10px;     /* spacing from button */
+    color: #fff;
+    text-decoration: underline; /* optional: looks like a link */
 }
